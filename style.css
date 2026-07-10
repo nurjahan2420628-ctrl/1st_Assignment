@@ -12,7 +12,7 @@ nav{
     padding: 10px 20px;
    
    
-    max-width: 1600px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 nav>ul{
@@ -75,7 +75,7 @@ nav>ul>li>a:hover{
 }
 .speakers{
    
-    max-width:1600px ; 
+    max-width:1300px ; 
     margin: 0 auto;
     padding: 50px;
    
@@ -119,7 +119,7 @@ nav>ul>li>a:hover{
     padding-top:10px;
 }
 .spot{
-    max-width: 1600px;
+    max-width: 1300px;
     margin: 0 auto;
     text-align: center;
     padding:50px;
@@ -332,24 +332,9 @@ nav>ul>li>a:hover{
     transform:translateY(-3px);
 }
 
-/* =========================
-   Responsive
-========================= */
 
-@media(max-width:768px){
 
-    .hackathon-section{
-        padding:70px 20px;
-    }
 
-    .hackathon-header h2{
-        font-size:34px;
-    }
-
-    .hackathon-header p{
-        font-size:16px;
-    }
-}
 
 
 .footer{
