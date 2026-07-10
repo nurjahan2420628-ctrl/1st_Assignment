@@ -342,3 +342,34 @@ nav>ul>li>a{
         font-size:16px;
     }
 }
+
+
+.footer{
+    background: #111827;
+    color: white;
+    padding: 50px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 15px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
