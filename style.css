@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px 20px;
+   
+   
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav>ul{
+    display: flex;
+    list-style:none;
+    gap: 30px;
+    align-items: center;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(74, 102, 240);
+    padding: 15px 35px;
+    border: none;
+    border-radius: 7px;
+    
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+   
+}
+.hero{
+    height: 100vh;
+
+    background:
+        linear-gradient(rgba(28, 27, 27, 0.6), rgba(44, 44, 44, 0.6)),
+        url("./assets/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+.hero-content>h1{
+    font-size: 70px;
+    padding-bottom: 10px;
+    
+    
+}
+.hero-content>p{
+    padding-bottom: 290px;
+}
+.speakers{
+   
+    max-width:1600px ; 
+    margin: 0 auto;
+    padding: 50px;
+   
+   text-align: center;
+}
+.card{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+.pic{
+    border:solid;
+    border-color: rgb(226, 223, 223);
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.pic img{
+    width: 100%;
+    height: 250px;
+  object-fit: cover;
+    border-radius: 10px;
+}
+.dept{
+    padding-top:10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: small;
+    color:rgb(55, 113, 219);
+}
+.title{
+    padding-top:10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: small;
+    color:rgb(119, 119, 120);
+}
+.pic h2{
+    text-align: left;
+    padding-top:10px;
+}
+.spot{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding:50px;
+}
+.spot>h1{
+    padding-bottom: 10px;
+}
+.spot>p{
+    font-size: smaller;
+    color: gray;
+    padding-top:5px;
+}
+.get{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.per{
+    text-align: left;
+   
+    border:solid;
+    border-color: rgb(226, 223, 223);
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.person{
+    text-align: left;
+   
+    
+    border-color: rgb(226, 223, 223);
+    background: rgba(13, 33, 105, 0.927);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.per> ul{
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left: 20px;
+   
+}
+.person>ul{
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left: 20px;
+}
+.person>ul>li{
+     padding-top: 10px;
+     color:rgb(166, 172, 178);
+}
+
+.per>ul>li{
+    padding-top: 10px;
+}
+.person>ul li::marker{
+    color:rgb(60, 60, 211);
+}
+.per>ul li::marker{
+    color:rgb(49, 49, 186);
+}
+.per> .type{
+    font-weight: bold;
+    font-size: small;
+    color: gray;
+    padding-bottom:5px;
+}
+.per>.head{
+    font-size: small;
+    color: gray;
+    padding-bottom:10px;
+}
+.per>h1{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.person> .type{
+    font-weight: bold;
+    font-size: small;
+    color: rgb(32, 146, 204);
+    padding-bottom:5px;
+}
+.person>.head{
+    font-size: small;
+    color: gray;
+    padding-bottom:10px;
+}
+.person>h1{
+    color: azure;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.out{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 54, 198);
+    border-radius: 7px;
+  
+}
+.outline{
+    background-color: rgb(54, 54, 198);
+    padding: 10px 30px;
+    border: none;
+    
+    
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   
+}
+
+
+/* =========================
+   Hackathon Challenge
+========================= */
+
+.hackathon-section{
+    padding:30px 8%;
+    background:#f8fafc;
+}
+
+.hackathon-container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.hackathon-header{
+    text-align:center;
+    max-width:750px;
+    margin:0 auto 60px;
+}
+
+.section-tag{
+    display:inline-block;
+    background:#e0f2fe;
+    color:#0f172a;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+.hackathon-header h2{
+    font-size:42px;
+    color:#0f172a;
+    margin-bottom:18px;
+}
+
+.hackathon-header p{
+    font-size:18px;
+    color:#64748b;
+    line-height:1.8;
+}
+
+.hackathon-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+}
+
+.hack-card{
+    background:#fff;
+    padding:35px 25px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s ease;
+}
+
+.hack-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+}
+
+.icon{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hack-card h3{
+    font-size:22px;
+    margin-bottom:12px;
+    color:#111827;
+}
+
+.hack-card p{
+    color:#6b7280;
+    font-size:16px;
+}
+
+.hackathon-btn{
+    text-align:center;
+    margin-top:55px;
+}
+
+.register-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:#fff;
+    padding:16px 42px;
+    border-radius:50px;
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.register-btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media(max-width:768px){
+
+    .hackathon-section{
+        padding:70px 20px;
+    }
+
+    .hackathon-header h2{
+        font-size:34px;
+    }
+
+    .hackathon-header p{
+        font-size:16px;
+    }
+}
